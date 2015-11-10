@@ -1,0 +1,11 @@
+# Site settings
+title: geelou
+email: geelou@qq.com
+description: geelou
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.geelou.com" # the base hostname & protocol for your site
+twitter_username: geelou
+github_username:  geelou
+image: /images/default.jpg
+# Build settings
+markdown: kramdown
