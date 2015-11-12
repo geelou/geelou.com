@@ -8,4 +8,9 @@
   	<link rel="stylesheet" href="{{ "/css/styles.css?1436966512" | prepend: site.baseurl }}">
     <script src='/js/jquery-1.4.4.min.js?1426205838'></script>
     <script src='/js/common.js?1426205838'></script>
+    {% if page.image %}
+    <div id='wx_pic' style='margin:0 auto;display:none;'>
+				<img src='{{ page.image }}' />
+		</div>
+		{% endif %}
   </head>
