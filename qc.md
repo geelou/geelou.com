@@ -1,7 +1,7 @@
 ---
 layout: index
-title: 湖南农村自产绿色脐橙，纯天然，欢迎购买
-excerpt: 绿色脐橙，欢迎购买
+title: 妈妈自种橙子，绿色纯天然，味道纯正甘甜，欢迎订购
+excerpt: 妈妈自种橙子，绿色纯天然，味道纯正甘甜，欢迎订购
 permalink: /qc.html
 image: /images/375749279.jpg
 ---
