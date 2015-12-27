@@ -14,15 +14,15 @@ image: /images/375749279.jpg
 
 &nbsp;&nbsp;**联系人：**田女士<br/>
 &nbsp;&nbsp;**联系电话：**18501373836<br/>
-&nbsp;&nbsp;**微信号：**tianboyuan1207(长按下面的二维码图片即可添加)<br/>
-![](images/20151227151720.png)
+&nbsp;&nbsp;**微信号：**tianboyuan1207(长按下面的二维码图片后点击“识别图中二维码”也可以添加)<br/>
+<img src="images/20151227151720.png"/>
 
 ## 脐橙图片: ##
+<img src="images/375749279.jpg" width="100%"/>
+<img src="images/1317997195.jpg" width="100%"/>
+<img src="images/1179267267.jpg" width="100%"/>
+<img src="images/130893473.jpg" width="100%"/>
 
-![](images/375749279.jpg)
-![](images/1317997195.jpg)
-![](images/1179267267.jpg)
-![](images/130893473.jpg)
 
 
 ## 这里统一回复一下大家关心的一些问题： ##
