@@ -25,66 +25,7 @@ if(request("imgurl") != undefined)
     document.write("</div>");
 }  
 
-window.onload = function () {
 
-    var miaov = {};
-    miaov.Dhw = function () {
-        var oUl = document.getElementById('ul1');
-        var oImgList = document.getElementById('imgList');
-        var aDiv = oImgList.getElementsByTagName('div');
-        var oNum = document.getElementById('num');
-        var aNum = oNum.getElementsByTagName('span');
-        var iTimer = null;
-        var iCur = 0;
-        oImgList.innerHTML += oImgList.innerHTML;
-        oNum.innerHTML += oNum.innerHTML;
-
-        for (var i = 0; i < aNum.length; i++) {
-            aNum[i].index = i;
-            aNum[i].onmouseover = function () {
-                iCur = this.index;
-                play();
-            }
-        }
-
-        oUl.onmouseover = function () {
-            clearInterval(iTimer);
-        }
-        oUl.onmouseout = function () {
-            autoPlay();
-        }
-
-        function play() {
-            if (iCur == aDiv.length) {
-                iCur = 0;
-            }
-            for (var i = 0; i < aNum.length; i++) {
-                aNum[i].className = '';
-            }
-            aNum[iCur].className = 'current';
-            //startMove(oImgList, 'top', -aDiv[0].offsetHeight * aNum[iCur].index);
-
-        }
-
-        function autoPlay() {
-            clearInterval(iTimer);
-            iTimer = setInterval(function () {
-                iCur++;
-                if (iCur == 5) {
-                    oImgList.style.top = 0 + "px";
-                    iCur = 1;
-                }
-
-                play()
-            }, 5000);
-        }
-        autoPlay();
-    }
-
-
-    miaov.Dhw();
-
-}
 function startMove(obj, attr, iTarget) {
     clearInterval(obj.iTimer);
     var iCur = 0;
@@ -127,22 +68,11 @@ document.writeln("");
 document.writeln("</style>");
 
 document.writeln("<div class=\"box_kuang\"  style='text-align: center; display: block; font-size: 0px; width: 100%; height: 50.650000000000006px; position: fixed; bottom: 0px; background:rgba(0,0,0,0.9) none repeat scroll !important; background:#000; filter:Alpha(opacity=90);z-index: 2147483646;'>");
-document.writeln("<ul id=\"ul1\">");
-document.writeln("    	<li id=\"imgList\">");
-
-document.writeln("          ");
-document.writeln("        </li>");
-document.writeln("        <li id=\"num\">");
-document.writeln("        	<span class=\"current\">1</span>");
-document.writeln("        	<span>2</span>");
-document.writeln("        	<span>3</span>");
-document.writeln("        </li>");
-document.writeln("    </ul>");
-document.writeln("    </div>");
-
 document.writeln("<scr"+"ipt type=\"text/javascript\">");
 document.writeln("    var cpro_id = \"u2465123\";");
 document.writeln("</scr"+"ipt>");
 document.writeln("<scr"+"ipt src=\"http://cpro.baidustatic.com/cpro/ui/cm.js\" type=\"text/javascript\"></scr"+"ipt>");
+document.writeln("    </div>");
+
 
 
