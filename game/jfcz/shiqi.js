@@ -75,7 +75,7 @@ function(t, e, n) {
                         }
                     T = !1
                 }
-                T ? (e = w * D(T.a), e = w * A(T.a) + n.sqrt(4 * p * p - e * e), a(t, e), y = "over", c.save().font("bold 18px sans-serif").textAlign("right").fillStyle("#f00").fillText("失败了！", h - 10, g - 45).fillText("1秒后重新开始", h - 10, g - 20).restore(), stop(), setTimeout(l, 1e3)) : 1 > e ? a(t, u) : (q.push(i(t - z)), o(t), y = "idle", j || (y = "pass", ("jfcz-data", '{"aa":' + (F + 1) + "}"), c.save().font("bold 18px sans-serif").textAlign("right").fillStyle("#060").fillText("完美过关！", h - 10, g - 45).fillText("1秒后下一关", h - 10, g - 20).restore(), level3366Fn(F), setTimeout(l, 1e3)))
+                T ? (e = w * D(T.a), e = w * A(T.a) + n.sqrt(4 * p * p - e * e), a(t, e), y = "over", c.save().font("bold 18px sans-serif").textAlign("right").fillStyle("#f00").fillText("失败了！", h - 10, g - 45).fillText("1秒后重新开始", h - 10, g - 20).restore(), stop(), setTimeout(l, 1e3)) : 1 > e ? a(t, u) : (q.push(i(t - z)), o(t), y = "idle", j || (y = "pass", ("jfcz-data", '{"aa":' + (F + 1) + "}"), c.save().font("bold 18px sans-serif").textAlign("right").fillStyle("#060").fillText("完美过关！", h - 10, g - 45).fillText("1秒后下一关", h - 10, g - 20).restore(), onPassLevel(F), setTimeout(l, 1e3)))
             }
             c.save().font("bold 18px sans-serif").textAlign("left").fillStyle("#000").fillText("关卡: " + F, 10, g - 20).font("bold 48px sans-serif").textAlign("center").fillStyle("#fff").fillText(F, m, d).restore(), N(r)
         }

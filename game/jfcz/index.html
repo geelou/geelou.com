@@ -55,19 +55,11 @@ canvas{background-color:#aaa;vertical-align:middle;opacity:1;border-top:solid 1p
 <script>document.getElementById('stage').style.height = (480 - Math.max(0, 568 - screen.height)) + 'px';</script>
 <script src="shiqi.js"></script>
 <script type="text/javascript">
-    function level3366Fn(F){
-        //alert(F);
-        try{
-            document.title = "见缝插针小游戏,没人能闯20关，我居然过了"+F+"关，看你能闯多少关！！"
-            window.shareData.tTitle = document.title;
-            window.shareData.desc = document.title;
-        }catch(e){console.log(e)}
+    function onPassLevel(level){
+        document.title = "见缝插针小游戏,没人能闯20关，我居然过了"+level+"关，看你能闯多少关！！"
+        window.shareData.tTitle = document.title;
+        window.shareData.desc = document.title;
     }
-
-    function share_3366(){
-        document.getElementById("share").style.display = "block";
-    }
-
 </script>
 
 
