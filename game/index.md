@@ -8,7 +8,7 @@ permalink: /game/index.html
 # 游戏中心
 
 
-[见缝插针](/game/jfcz/shiqi.html)
+[见缝插针](/game/jfcz/)
 
 
 

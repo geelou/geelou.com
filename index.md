@@ -30,7 +30,7 @@ permalink: /index.html
 [乞丐被当场拆穿，乞丐自己都笑了](/video/20151109.html)
 
 # 游戏中心  --  [更多](game/) #
-[见缝插针](/game/jfcz/shiqi.html)
+[见缝插针](/game/jfcz/)
 
 
 
