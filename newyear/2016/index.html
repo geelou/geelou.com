@@ -125,7 +125,7 @@ body,td {
 			return;
 		}
 		
-		window.location.href="index.html?send="+escape(send)+"&rece="+escape(rece);
+		window.location.href="index.html?send="+encodeURI(send)+"&rece="+encodeURI(rece);
 	}
 </script>
 </head>
