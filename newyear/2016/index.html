@@ -125,11 +125,7 @@ body,td {
 			return;
 		}
 		
-		var b="send="+escape(send)+"&rece="+escape(rece);
-		var c=window.location.href;
-		var d=c.split("?");
-		var e=d[0]+"?"+b;
-		window.location.href=e;
+		window.location.href="index.html?send="+escape(send)+"&rece="+escape(rece);
 	}
 </script>
 </head>
