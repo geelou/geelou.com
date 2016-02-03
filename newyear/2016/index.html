@@ -12,7 +12,6 @@
 	<img src='images/door.gif' />
 </div>
 <script src="/js/jquery-1.4.4.min.js"></script>
-<script src="/js/common.js"></script>
 <style type="text/css">
 <!--
 body {
@@ -100,6 +99,14 @@ body,td {
 </style>
 
 <script>
+	(function ($) {
+	    $.getUrlParam = function (name) {
+	        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+	        var r = window.location.search.substr(1).match(reg);
+	        if (r != null) return decodeURI(r[2]); return null;
+	    }
+	})(jQuery);
+
 		var m = $.getUrlParam('send');
 		var y = $.getUrlParam('rece');
 		if(m==undefined||m==""){
