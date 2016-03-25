@@ -32,6 +32,9 @@ permalink: /index.html
 # 游戏中心  --  [更多](game/) #
 [见缝插针](/game/jfcz/)
 
+# 其他 #
+[APP广告字自查](/appkey.html)
+
 
 
 
