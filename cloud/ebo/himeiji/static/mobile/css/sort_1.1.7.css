@@ -1,0 +1,130 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.header-search {
+  margin: 6px 6px 6px 105px;
+}
+body .nav-tab-pt {
+  padding-top: 45px;
+}
+body .nav-tab {
+  position: fixed;
+  z-index: 2;
+  top: 45px;
+  width: 100%;
+  max-width: 640px;
+  background: #ffffff;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+body .nav-tab a {
+  color: #737373;
+  display: inline-block;
+  height: 25px;
+  line-height: 23px;
+  padding: 0 5px;
+}
+body .nav-tab a.active {
+  color: #ff5555;
+  border-bottom: 2px solid #ff5555;
+}
+body .sort-list dl {
+  background: #ffffff;
+}
+body .sort-list dl dt {
+  position: relative;
+}
+body .sort-list dl dt .des {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body .sort-list dl dt .des .des-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -58%);
+  -moz-transform: translate(-50%, -58%);
+  -ms-transform: translate(-50%, -58%);
+  -o-transform: translate(-50%, -58%);
+  transform: translate(-50%, -58%);
+  text-align: center;
+  color: #ffffff;
+}
+body .sort-list dl dt .des .des-box .tit {
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+body .sort-list dl dt .des .des-box .subtit {
+  font-size: 0.85rem;
+}
+body .sort-list dl dt .des .des-box .showall {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  padding: 1px 8px;
+  font-size: 0.75rem;
+}
+body .sort-list dl dd {
+  padding: 10px;
+  font-size: 0.875rem;
+  color: #737373;
+}
+body .sort-list dl dd span {
+  padding: 0 10px 0 0;
+  white-space: nowrap;
+  line-height: 2em;
+}
+body .sort-list dl dd span.hot {
+  color: #ff5555;
+}
+body .brand-list {
+  zoom: 1;
+  padding: 2%;
+}
+body .brand-list:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body .brand-list .brand-item {
+  position: relative;
+  display: block;
+  float: left;
+  width: 32%;
+  margin-bottom: 2%;
+  background: #ffffff;
+}
+body .brand-list .brand-item img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+body .brand-list .brand-item:not(:nth-child(3n-2)) {
+  margin-left: 2%;
+}
+.letter-btn {
+  position: fixed;
+  z-index: 3;
+  top: 85px;
+  right: 5px;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  background: #ff5555;
+}

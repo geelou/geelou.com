@@ -1,0 +1,50 @@
+.logis-info{
+    padding: 10px;
+    color: #555555;
+}
+.logis-info .logis-number{
+    font-size: 0.875rem;
+}
+.logis-details{
+    padding: 10px 10px 10px 20px;
+}
+.logis-details li{
+    position: relative;
+    padding: 10px 0 0 20px;
+    border-left: 1px solid #cccccc;
+}
+.logis-details li .logis-content{
+    color: #555555;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #dddddd;
+}
+.logis-details li .logis-content .logis-content-detail{
+    font-size: 0.875rem;
+}
+.logis-details li .logis-content .logis-content-time{
+    font-size: 0.75rem;
+}
+.logis-details li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -7px;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #cccccc;
+    border: 2px solid #f0f0f0;
+}
+.logis-details li:first-child{
+    border-left-color: #ff5555;
+}
+.logis-details li:first-child:after{
+    background: #ff5555;
+}
+.logis-details li:first-child .logis-content{
+    color: #ff5555;
+}
+.logis-details li:last-child .logis-content{
+    border: 0;
+}

@@ -1,0 +1,196 @@
+/*商品详情*/
+body{
+    background: #f0f0f0;
+}
+.headerpt{
+    padding-top: 80px;
+}
+.m-share-header{
+    width: 100%;
+    height: 80px;
+    background: #ff5555;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 17px 3%;
+}
+.m-share-header .pic{
+    position: absolute;
+    left: 3%;
+    top: 17px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.m-share-header .pic img{
+    width: 100%;
+}
+.m-share-header .invitation{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    overflow: hidden;
+    width: 100%;
+    height: 46px;
+    line-height: 23px;
+    padding: 0 80px 0 56px;
+    font-size: 0.75rem;
+    color: #ffffff;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+}
+.m-share-header .invitation .invi-code{
+    font-weight: bold;
+}
+.m-share-header .get-privilege{
+    position: absolute;
+    right: 3%;
+    top: 17px;
+    width: 80px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+.m-share-header .get-privilege a{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    background: #ffffff;
+    color: #ff5555;
+    font-size: 0.875rem;
+}
+.m-share-header .get-privilege i.icon-himeiji{
+    font-size: 1.375rem;
+}
+.viewport{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.swiper-pagination-bullet-active{
+    background: #ff5555;
+}
+.m-summary{
+    width: 100%;
+    color: #333333;
+}
+.m-pic{
+    position: relative;
+}
+.m-pic .m-product-type{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 2;
+    width: 38px;
+    height: auto;
+}
+.m-pic .m-product-type img{
+    width: 100%;
+    height: auto;
+}
+.swiper-slide a img{
+    width: 100%;
+}
+.m-title, .m-price, .m-event, .m-himi{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 0.875rem;
+}
+.m-title, .m-price, .m-event, .m-notice, .m-promise, .m-himi, .m-buying{
+    width: 100%;
+    background: #ffffff;
+}
+.m-price{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.m-price .m-price-himeiji {
+    font-size: 1rem;
+    color: #ff5555;
+    font-weight: bold;
+}
+.m-price .m-price-original{
+    font-size: 0.75rem;
+    color: #666666;
+}
+.m-event{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.m-event .m-event-tips {
+    padding: 1px 6px;
+    margin-right: 6px;
+    background: #ff5555;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.7rem;
+}
+.m-promise{
+    text-align: center;
+    margin: 10px 0;
+}
+.m-promise .m-promise-tit{
+    border-bottom: 1px solid #eeeeee;
+    padding: 3px 0;
+}
+.m-promise ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    padding: 10px 0;
+}
+.m-promise ul li{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 25%;
+    font-size: 0.875rem;
+}
+.m-promise ul li > i {
+    display: block;
+    width: 31px;
+    height: 41px;
+    margin: 0 auto 3px;
+    background: url("../images/m-promise.png") no-repeat;
+    background-size: 124px 41px;
+}
+.m-promise ul li > i.i-hwzc{
+    background-position: 0 0;
+}
+.m-promise ul li > i.i-zpbz{
+    background-position: -31px 0;
+}
+.m-promise ul li > i.i-ksqg{
+    background-position: -62px 0;
+}
+.m-promise ul li > i.i-gnsh{
+    background-position: -93px 0;
+}
+.m-himi{
+    padding: 10px 3%;
+    border-bottom: 1px solid #eeeeee;
+}
+.m-himi .m-himi-tit{
+    color: #ff5555;
+}
+.m-himi .m-himi-content{
+    color: #999999;
+}
+.m-introduction-content{
+    padding: 8px;
+    background: #ffffff;
+}
+.m-introduction-content img{
+    width: 100%;
+}

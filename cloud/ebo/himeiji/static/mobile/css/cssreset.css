@@ -1,0 +1,80 @@
+@import url(//at.alicdn.com/t/font_1453097670_4928088.css);
+@charset "utf-8";
+
+
+/*css reset*/
+body,nav,div,a,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,dl,dt,dd,input,button,textarea,footer,span,section{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font:16px/1.5 'Microsoft Yahei', 'Helvetica Neue', Helvetica, STHeiTi, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f3f3f3;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255,255,255,0);
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight: normal;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    border: none;
+    outline:none;
+    text-decoration:none;
+}
+a:link, a:hover{
+    border: none;
+    outline:none;
+}
+img{
+    width: 100%;
+    vertical-align:middle;
+    border:0;
+    -ms-interpolation-mode:bicubic;
+}
+button,input,select,textarea{
+    font-size:100%;
+    vertical-align:middle;
+    outline:none;
+}
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+    cursor:pointer;
+}
+/*清除按钮和超链接点击时的虚线*/
+button::-moz-focus-inner,input::-moz-focus-inner {
+    padding:0;
+    border:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.ellipsis{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.g-fr{
+    float: right;
+}
+.s-color-ff5555{
+    color: #ff5555;
+}
+
+@media screen and (max-width: 641px) { 
+	::-webkit-scrollbar{
+	    width:0;
+	}
+}

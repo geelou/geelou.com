@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.tuanqa{ background:#fff; border-top:1px solid #b2b2b2; padding-bottom:20px;} 
+.tuanqa ol{ list-style-type:decimal; padding:0 30px;}
+.tuanqa li{ display: list-item; font-size:0.875rem; line-height:24px; color:#646464;}
+.hmj-title1{font-size:1rem; text-align:center; margin:16px 0;}
+.hmj-title2{font-size:0.75rem; margin:10px 0 10px 41px; color:#646464;}

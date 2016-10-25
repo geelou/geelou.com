@@ -1,0 +1,236 @@
+@import "cssreset.css";
+
+.clearfix {
+  zoom: 1;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+body {
+  background-color: #c4151c;
+}
+
+.reward-list {
+  position: relative;
+  width: 95%;
+  height: 95vw;
+  margin: auto;
+  border-radius: 5px;
+
+  h1 {
+    position: absolute;
+    top: -18vw;
+    width: 100%;
+    text-align: center;
+    font-size: 1.375rem;
+    color: #feec9a;
+    font-family: "方正清刻本悦宋简体";
+
+    .z {
+      font-size: 2rem;
+    }
+  }
+
+  //.begin-btn {
+  //  position: absolute;
+  //  width: 50%;
+  //  height: 50vw;
+  //  top: 25%;
+  //  left: 25%;
+  //  background: url("../images/sfreward_beginbtn.jpg") no-repeat;
+  //  background-size: 100% auto;
+  //}
+
+  table {
+    width: 100%;
+    height: 100%;
+
+    tr {
+      td{
+        width: 25%;
+        height: 24vw;
+        background: url("../images/sfreward_border.png") no-repeat;
+        background-size: 100% auto;
+        font-family: "方正清刻本悦宋简体";
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+        text-align: center;
+        color: #feeb9e;
+
+        img.award {
+          display: block;
+          width: auto;
+          height: 58%;
+          margin: 0 auto 3px;
+        }
+
+        img.award-coupon {
+          width: 90%;
+          height: auto;
+        }
+
+        &.active {
+          background: url("../images/sfreward_border_foc.png") no-repeat;
+          background-size: 100% auto;
+          color: #c4151c;
+        }
+
+        a.begin-btn {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: url("../images/sfreward_beginbtn.jpg") no-repeat;
+          background-size: 100% auto;
+        }
+      }
+    }
+  }
+
+  //.reward-item-1 {
+  //  top: 0;
+  //  left: 0;
+  //}
+  //.reward-item-2 {
+  //  top: 0;
+  //  left: 25%;
+  //}
+  //.reward-item-3 {
+  //  top: 0;
+  //  left: 50%;
+  //}
+  //.reward-item-4 {
+  //  top: 0;
+  //  left: 75%;
+  //}
+  //.reward-item-5 {
+  //  top: 25%;
+  //  right: 0;
+  //}
+  //.reward-item-6 {
+  //  top: 50%;
+  //  right: 0;
+  //}
+  //.reward-item-7 {
+  //  top: 75%;
+  //  right: 0;
+  //}
+  //.reward-item-8 {
+  //  right: 25%;
+  //  top: 75%;
+  //}
+  //.reward-item-9 {
+  //  right: 50%;
+  //  top: 75%;
+  //}
+  //.reward-item-10 {
+  //  top: 75%;
+  //  left: 0;
+  //}
+  //.reward-item-11 {
+  //  top: 50%;
+  //  left: 0;
+  //}
+  //.reward-item-12 {
+  //  top: 25%;
+  //  left: 0;
+  //}
+}
+
+.reward-btn {
+  padding: 30px 0;
+  .clearfix;
+  font-family: "方正清刻本悦宋简体";
+
+  .chance-btn, .rule-btn {
+    position: relative;
+    width: 35%;
+    margin: 0 7.5%;
+    height: auto;
+    float: left;
+    color: #c4151c;
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      font-size: 1.125rem;
+    }
+  }
+}
+
+.decorate {
+  height: 15px;
+  background-size: auto 100%;
+}
+
+.decorate-r {
+  background: url("../images/sfreward_decorate_r.png") repeat-x;
+}
+
+.decorate-y {
+  background: url("../images/sfreward_decorate_y.png") repeat-x;
+}
+
+.reward-info {
+  background: #f2d699;
+
+  .reward-info-tit {
+    width: 95%;
+    margin: auto;
+    padding: 5px 0 15px;
+  }
+
+  .reward-info-cont {
+    width: 80%;
+    height: 43.34vw;
+    margin: 0 auto 15px;
+    padding: 3vw 3%;
+    background: url("../images/sfreward_reward_bg.png") no-repeat;
+    background-size: 100% auto;
+
+    ul {
+      width: 100%;
+      height: 100%;
+
+      li {
+        width: 100%;
+        height: 25%;
+        line-height: 7vh;
+        padding: 0 2%;
+        border-bottom: 1px dashed #c4151c;
+        font-size: 0.625rem;
+        color: #c4151c;
+        font-family: "方正清刻本悦宋简体";
+
+        .user {
+          float: left;
+          display: inline-block;
+          width: 30%;
+          height: 100%;
+          .ellipsis;
+        }
+        .award-info {
+          float: left;
+          display: inline-block;
+          width: 70%;
+          height: 100%;
+          .ellipsis;
+        }
+      }
+    }
+  }
+}

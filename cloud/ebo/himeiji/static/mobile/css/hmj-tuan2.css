@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.user span{ }
+.user span:last-child{ margin-left:25px;}
+.u-height-30{border-bottom:1px solid #b2b2b2; margin:0 10px; padding:0; font-size:0.75rem; color:#646464;}
+.u-height-30 span{ color:#ff5555;}
+.u-title{font-size:0.875rem; color:#000;}
+.m-confirm{ background-color:#595959; padding:0; color:#fff; padding-left:10px;}
+.m-confirm span{ color:#fff;}
+.m-confirm .m-confirm-btn{ margin:0; border-radius:0; height:45px; line-height:45px; background-color:#ff317b; width:108px;}
+.m-user-addr-info div:last-child{ color:#646464;}
+.m-goods-tit{ color:#000;}

@@ -1,0 +1,88 @@
+/*商品详情分享弹窗样式*/
+.layermbox .input-num{
+    margin: 15px 0 8px;
+}
+.layermbox .input-num input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    text-indent: 5px;
+}
+.layermbox .input-code{
+    margin-bottom: 8px;
+}
+.layermbox .input-code input{
+    width: 65%;
+    height: 35px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    text-indent: 5px;
+}
+.layermbox .input-code a{
+    display: inline-block;
+    width: 32%;
+    height: 35px;
+    line-height: 35px;
+    float: right;
+    text-align: center;
+    background: #ff5555;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.layermbox .input-code a.disabled{
+    background: #999999;
+}
+.layermbox .input-submit a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    border-radius: 4px;
+    background: #ff5555;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*好友邀请分享弹窗样式*/
+.layermbox .invite-code{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-52%);
+    transform: translateX(-52%);
+    width: 40%;
+    height: 109px;
+    background:url(../images/share_goods_dialog_ticket.png) no-repeat;
+    background-size: 100% auto;
+}
+.layermbox .invite-code p.invite-codecode{
+    padding: 14% 0 0 13%;
+    font-size: 1.625rem;
+    font-weight: bold;
+    color: #c60400;
+}
+.layermbox .invite-code p.invite-word{
+    padding: 0 0 0 14%;
+    color: #333;
+}
+.layermbox .done-tip{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight:bold;
+    color: #FFF500;
+}
+.layermbox a.done-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 30%; height: 10%;
+    background: rgba(255, 255, 255, 0);
+    margin-top: 28%;
+}

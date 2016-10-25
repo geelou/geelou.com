@@ -1,0 +1,101 @@
+.header-search{
+    margin: 6px 6px 6px 105px;
+}
+.sort-tab{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+}
+.sort-tab .left{
+    width: 75px;
+    height: 100%;
+    background: #f0f0f0;
+    overflow-y: auto;
+}
+.sort-tab .right{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.sort-tab .left ul{
+    width: 100%;
+}
+.sort-tab .left ul li {
+    width: 100%;
+    height: 80px;
+    font-size: 0.75rem;
+    color: #999999;
+    text-align: center;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.sort-tab .left ul li.on{
+    color: #ff5555;
+    background: #ffffff;
+}
+.sort-tab .left ul li i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 5px;
+}
+.sort-tab .left ul li.on i{
+    background-size: 100%;
+}
+
+.sort-tab .right ul.sort-list .sort-banner{
+    width: 100%;
+    overflow: hidden;
+}
+.sort-tab .right ul.sort-list .sort-banner img {
+    width: 100%;
+    height: auto;
+}
+.sort-tab .right ul.sort-list, ul.sort-list > li{
+    width: 100%;
+}
+.sort-tab .right ul.sort-list > li{
+    display: none;
+}
+.sort-tab .right ul.sort-list > li.on{
+    display: block;
+}
+.sort-tab .right ul.sort-list-item li{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.75rem;
+}
+.sort-tab .right ul.sort-list-item li a {
+    display: block;
+    width: 100%;
+    color: #999999;
+}
+.sort-tab .right ul.sort-list-item li a span{
+    display: block;
+    width: 100%;
+    padding: 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

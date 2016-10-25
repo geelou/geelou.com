@@ -1,0 +1,82 @@
+.address .m-swiper-tabs{
+    top: 45px;
+}
+.address .swiper-container{
+    top: 80px;
+}
+.address .content-slide ul{
+    width: 100%;
+}
+.address .content-slide ul li{
+    width: 100%;
+    background: #ffffff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    padding: 10px;
+}
+.address .content-slide ul li + li{
+    border-top: 1px dashed #e3e3e3;
+}
+
+.address .content-slide ul li .m-user-addr-info{
+	    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    height: auto;
+    font-size: 0.75rem;
+    color: #666666;
+}
+
+.address .content-slide ul li .m-user-addr-info .address_info{
+	padding-left:10px;
+}
+
+.address .content-slide ul li .address_edit{
+	padding:10px;
+	color:#ff5555 !important;
+    font-size: 0.8rem !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    display: -webkit-box !important;
+}
+
+.address .content-slide .add_btn{
+	height:80px;
+	line-height:80px;
+	padding:20px;
+    width: 100%;
+    background: #f3f3f3;
+    text-align:center;
+    border-top: none;
+}
+
+.address .content-slide .add_btn a{
+    display: block;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: #ff5555;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    margin:auto;
+}
+
+.address .content-slide .add_btn a:link, a:hover {
+    border: none;
+    outline: none;
+}
+	

@@ -1,0 +1,230 @@
+.user-info{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background: #ffffff;
+}
+.user-info .photo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-info .info{
+    float: left;
+}
+.user-info .name{
+    font-size: 1.125rem;
+    color: #333333;
+}
+.user-info .time{
+    font-size: 0.75rem;
+    color: #999999;
+}
+.content{
+    background: #ffffff;
+}
+.content p{
+    padding: 0 10px;
+    line-height: 2rem;
+}
+.tag{
+    width: 100%;
+    line-height: 30px;
+    padding: 0 10px;
+    background: #ffffff;
+}
+.tag dt{
+    display: inline-block;
+}
+.tag dt i.icon-himeiji{
+    color: #ff5555;
+}
+.tag dd{
+    display: inline-block;
+    height: 18px;
+    line-height: 16px;
+    padding: 0 5px;
+    color: #ff5555;
+    font-size: 0.75rem;
+    margin-left: 5px;
+    border: 1px solid #ff5555;
+    border-radius: 3px;
+}
+.operation{
+    display: -webkit-box;
+    background: #ffffff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.operation li{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+.operation li + li{
+    border-left: 1px solid #dddddd;
+}
+.operation li a{
+    display: block;
+    color: #666666;
+    font-size: 0.875rem;
+}
+.operation li a i.icon-himeiji{
+    font-size: 1.25rem;
+}
+.product{
+    background: #ffffff;
+    margin-top: 10px;
+}
+.product a.buy{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    background: #ff5555;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.product dl dd.m-goods:not(:last-child){
+    border-bottom: 1px dashed #dddddd;
+}
+dl dd.m-goods{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    font-size: 0.75rem;
+    height: 80px;
+    padding: 10px;
+    color: #666666;
+}
+dl dd .shopping-cart-goods{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    height: 60px;
+    font-size: 0.75rem;
+    color: #666666;
+}
+dl dd img.shopping-cart-pic{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 6px;
+}
+.m-goods-info{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 60px;
+}
+.m-goods-tit{
+    display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+    height: 36px;
+    line-height: 18px;
+    margin-bottom: 4px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #666666;
+}
+.m-goods-show{
+    height: 20px;
+    line-height: 20px;
+}
+.m-goods-price, .m-goods-count{
+    display: inline-block;
+}
+.m-goods-price-himeiji{
+    font-size: 0.875rem;
+    color: #ff5555;
+    font-weight: bold;
+}
+.m-goods-price-original{
+    color: #999999;
+}
+.m-goods-count{
+    float: right;
+}
+.m-goods-count span.m-span-box{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 2px;
+}
+.m-goods-count span.m-add-cart-icon {
+    background: #ff5555;
+    color: #ffffff;
+    border-radius: 50%;
+}
+.m-goods-num{
+    color: #000000;
+    /*font-size: 0.875rem;*/
+}
+.comment{
+    width: 100%;
+    margin-top: 10px;
+}
+.comment ul{
+    width: 100%;
+    background: #ffffff;
+}
+.comment ul li{
+    display: -webkit-box;
+    padding: 10px;
+}
+.comment ul li:not(:last-child){
+    border-bottom: 1px dashed #dddddd;
+}
+.comment ul li .photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.comment ul li .info{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 0.875rem;
+
+}
+.comment ul li .info .user{
+    height: 25px;
+    line-height: 25px;
+}
+.comment ul li .info .user .name{
+    color: #ff5555;
+}
+.comment ul li .info .user .time{
+    float: right;
+    color: #999999;
+}
+.comment ul li .info .content{
+    line-height: 25px;
+}

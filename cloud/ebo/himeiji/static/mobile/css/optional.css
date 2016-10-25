@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+
+.optional-headerpt{
+    height:45px;
+	/*background-color:#ff5555;*/
+}
+
+
+
+.optional-view-node{
+	position:relative;
+}
+
+.optional-menu {
+	width:100%;height:41px;
+	background-color:#ffffff;  
+	border-bottom:1px solid #E2DBDB;	 /*border-bottom:1px solid #E2DBDB;*/
+	overflow-x:hidden;
+	min-width:320px;
+}
+
+.optional-menu-visb{
+	left:0px;top:45px;
+	width:100%;height:41px;
+	background-color: #ffffff;
+	border-bottom:1px solid #E2DBDB;
+	position:fixed;z-index:555;
+}
+
+.optional-menu .optional-menu-tabs{z-index:666;width:100%;height:40px;margin-left:0px;background:#ffffff;}
+.optional-menu .optional-menu-item {
+	padding: 0px 10px;
+	width:29%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 0.875rem;
+	position:relative;
+}
+.swiper-container-horizontal{ background-color: #ffffff;}
+.optional-menu .swiper-slide a{height:39px;line-height:39px; text-align:center;color:#646464;border-bottom:2px solid #fff;}
+.optional-menu .swiper-slide a.active{color:#ff5555; border-bottom:2px solid #ff5555; background:#fff url(../images/red_triangle.png) no-repeat center bottom; background-size:11px 6px; height:100%;-webkit-box-pack: center;}
+
+
+/*
+.optional-menu .m-menu-down{
+	width:13%;
+	height:40px;
+	background-color:#ff0000;  
+	position: relative;
+	margin-top:-40px;
+	margin-left:90%;
+	z-index:777;
+}
+.optional-menu .m-menu-down .menu-arrow-down{width:16px;margin:15px 5px;}
+.optional-menu .m-menu-down .menu-arrow-up{width:16px;margin:15px 5px; transform: rotate(180deg);-o-transform: rotate(180deg);-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);}
+*/
+
+
+.optional-item-tip{
+	width:42px;height:42px;
+	background-color:#fe9a33;
+	color:#ffffff;font-size:0.69rem;
+	padding:6px 4px;margin:-5px -5px;
+	text-align: center;
+	line-height:15px;overflow:hidden;
+	position:absolute;left:0px;top:0px;
+}
+
+
+.optional-gift-tip{
+	width:42px;height:42px;
+	background-color:#9231ff;
+	color:#ffffff;font-size:0.69rem;
+	padding:6px 4px;margin:-5px -5px;
+	text-align: center;
+	line-height:15px;overflow:hidden;
+	position:absolute;left:0px;top:0px;
+}
+
+.optional-save-tip{
+	width:42px;height:42px;
+	background-color:#ff6666;
+	color:#ffffff;font-size:0.69rem;
+	padding:6px 4px;margin:-5px -5px;
+	text-align: center;
+	line-height:15px;overflow:hidden;
+	position:absolute;left:0px;top:0px;
+}
+
+.prom_color_zone{
+	background-color:#fe9a33;
+}
+
+.prom_color_zone_sale{
+	background-color:#ff6666;
+}
+
+.optional-title{text-align:center;font-size:1.125rem; height:3.7rem;line-height:3.7rem;background-size: contain;background-color:#f3f3f3;}
+.optional-title span{}
+.optional-title div:first-child{
+	position:relative;
+	top:50%;left:10%;
+	width:20%;height:1px;line-height:1px;background-color:#b2b2b2;overflow:hidden;
+}
+.optional-title div{
+	position:relative;
+	top:-50%;left:70%;
+	width:20%;height:1px;line-height:1px;background-color:#b2b2b2;overflow:hidden;
+}
+.optional-title img{
+	position:relative;
+	margin-top:-4px;
+	margin-right:5px;
+	width:16px;height:16px;line-height:16px;overflow:hidden;
+}
+
+.item-list{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}

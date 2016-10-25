@@ -1,0 +1,41 @@
+.top{ position:relative; text-align:center;}
+.top p{ position:absolute; width:100%; bottom:10px; color:#fff;font-size:0.75rem; text-align:center;}
+.top a{ width:106px; height:24px; border:2px solid #fff; border-radius:10px; display:block; position:absolute; bottom:30px; color:#fff; line-height:20px;font-size:0.875rem; left:50%; margin-left:-53px;}
+.baner{ display:-webkit-box; padding:15px 25px;}
+.baner .left{
+	width: 40%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.baner .left p img,.baner .right p img{ width:60%; display:block; margin-bottom:5px;}
+.baner .right p img{ width:60%; display:block; margin-bottom:10px;}
+.baner .left p span,.baner .right p span{ font-size:0.9rem;}
+.baner .right {
+    width: 60%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.line{
+    padding: 0;
+    height: 1px;
+    background: #cbcbcb;
+}
+.btn-two{ text-align:center; margin-bottom:10px;}
+.btn1{ width:130px; display:inline-block; background:url(../images/plan/btn1.jpg) no-repeat 0 0; background-size:100%; height:33px; }
+.btn2{ width:130px; display:inline-block; background:url(../images/plan/btn2.jpg) no-repeat 0 0; background-size:100%; height:33px; margin-left:15px; }
+.btn3{ width:90%; display:block; margin:5% 5% 5% 5%;}
+.baner2{ padding:15px 25px 0 25px;}
+.baner2 h2{ background-color:#ff5555; display:inline-block; height:25px; line-height:25px; color:#fff; border-radius:25px; padding:0 5px; margin-bottom:6px;}
+.baner2 p{ color:#646464; font-size:0.875rem; line-height:24px; }
+.baner2 p.txt1{ color:#ff7272; margin-top:10px;}
+.pt10{ padding-top:10px;}

@@ -1,0 +1,153 @@
+@charset "utf-8";
+/*.PathMenu {*/
+	/*position:absolute;*/
+	/*right: 0px;*/
+	/*bottom: 0px;*/
+	/*width: 40px;*/
+	/*height: 40px;*/
+/*}*/
+.PathInner {
+	position:fixed;
+	right: 8px;
+	bottom: 8px;
+	width: 40px;
+	height: 40px;
+}
+.PathInner .PathItem {
+	position:absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.PathInner a {/* position:absolute; */
+	display:block;/* overflow:hidden; */
+	background-position:center;
+	background-repeat:no-repeat;
+	z-index:999;
+}
+.PathInner a .item, .rotate {
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	vertical-align:middle;
+	position:absolute;
+}
+.PathInner .PathMain {
+	z-index:1000;
+	position:absolute;
+	display:block;/* overflow:hidden; */
+	background-position:center;
+	background-repeat:no-repeat;
+	bottom:0;
+	left:0;
+}
+.PathInner .PathMain .Tmain {
+	/*background-image: url(../images/bg-2x.png);*/
+	background: #ff5555;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: transform .2s ease 0s;
+	-o-transition: transform .2s ease 0s;
+	transition: transform .2s ease 0s;
+}
+.PathInner .PathMain .Tmain.rotate-icon{
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.PathInner i.icon-himeiji{
+	font-size: 1.375rem;
+	color: #fff;
+}
+/*.PathInner .PathMain .Tmain .rotate {
+	background-image: url(../images/icon-2x.png);
+	-moz-transform: rotate(0deg);
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.PathInner .cover {
+	width:100%;
+	height:100%;
+	display:block;
+	background:url(../images/bg-hl-2x.png) center no-repeat;
+	cursor: pointer;
+*filter:alpha(opacity=0);
+	filter:alpha(opacity=0)\0;
+	opacity:0;
+-webkit-transition:opacity .2s ease-out;
+-moz-transition:opacity .2s ease-out;
+-ms-transition:opacity .2s ease-out;
+-o-transition:opacity .2s ease-out;
+}
+.PathInner .cover:hover {
+	opacity:0.2;
+*filter:alpha(opacity=20);
+	filter:alpha(opacity=20)\0;
+}*/
+.PathItem .link {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width: 40px;
+	height: 40px;
+	/*background-image: url(../images/bg-item-2x.png);*/
+	background: #ff5555;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+}
+.PathItem .link .item {
+	bottom:0;
+	left:0;
+}
+
+.footer_v2_root{
+	width: 120px;
+	height: 40px;
+	left: 1rem;
+	bottom: 1rem;
+	z-index:10;
+	position:fixed;
+	background-color:#000000;
+	border-radius: 6px;
+	filter:alpha(opacity=70);  
+    -moz-opacity:0.7;  
+    -khtml-opacity: 0.7;  
+    opacity: 0.7;  
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+.footer_v2_root div{
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    text-align:cener;
+    border-right:1px solid #414141;
+}
+
+.footer_v2_root div img{
+	width:50%;
+	height:50%;
+	margin:25%;
+}
