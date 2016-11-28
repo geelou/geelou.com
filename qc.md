@@ -15,7 +15,7 @@ image: /images/375749279.jpg
 &nbsp;&nbsp;**联系人：**田女士<br/>
 &nbsp;&nbsp;**联系电话：**18501373836<br/>
 &nbsp;&nbsp;**微信号：**tianboyuan1207(长按下面的二维码图片后点击“识别图中二维码”也可以添加)<br/>
-<img src="images/20151227151720.png"/>
+<img src="images/20151227151720.png" width="80%"/>
 
 ## 脐橙图片: ##
 <img src="images/375749279.jpg" width="100%"/>
