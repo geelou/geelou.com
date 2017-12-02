@@ -9,17 +9,18 @@ image: /images/qc/qc201701.jpg
 
 <div style="padding:1rem; 0rem;">
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;农村老家种的脐橙（产地湖南省新宁县），自家种植，现摘现卖，农家肥，自然成熟，不打蜡，新鲜美味，欢迎购买与品尝。<span style="color:#ff5555;">招牌黄橙10斤装 68元包邮，20斤装128元包邮;</span><span style="color:#ff5555;font-weight:bold;">新版红心橙10斤装 88元包邮，20斤装 168元包邮</span>。
+<p>&nbsp;&nbsp;&nbsp;&nbsp;农村老家种的脐橙（产地湖南省新宁县清江桥乡），自家种植，现摘现卖，农家肥，自然成熟，不打蜡，新鲜美味，欢迎购买与品尝。<span style="color:#ff5555;">招牌黄橙10斤装 68元包邮，20斤装128元包邮;</span><span style="color:#ff5555;font-weight:bold;">新版红心橙10斤装 88元包邮，20斤装 168元包邮</span>。
 </p>
 </div>
-
 <h2 style="text-align:center;"> 联系方式 </h2>
-
-&nbsp;&nbsp;**联系人：**田女士<br/>
-&nbsp;&nbsp;**联系电话：**18501373836<br/>
-&nbsp;&nbsp;**微信号：**tianboyuan1207(长按下面的二维码图片后点击“识别图中二维码”也可以添加)<br/>
-<img style="width:61.8%;margin:auto;" src="images/yuanyuan_20171202121236.jpg"/>
-
+<div style="padding:1rem; 0rem;">
+<span style="font-weight:bold;">联系人：</span>田女士<br/>
+<span style="font-weight:bold;">联系电话：</span>18501373836<br/>
+<span style="font-weight:bold;">微信号：</span>tianboyuan1207<br/>(长按下面的二维码图片后点击“识别图中二维码”也可以添加)<br/>
+</div>
+<div style="text-align:center;">
+<img style="width:61.8%;" src="images/yuanyuan_20171202121236.jpg"/>
+</div>
 <h2 style="text-align:center;"> 脐橙介绍 </h2>
 <div style="padding:1rem; 0rem;">
 <p>
