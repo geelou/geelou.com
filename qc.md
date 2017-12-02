@@ -70,7 +70,7 @@ image: /images/qc/qc201701.jpg
 $.ajax({
   url:'http://php.geelou.com/weixin.class.php',
   type:'get',
-  data:{url:window.location.pathname},
+  data:{url:'http://www.geelou.com/qc.html'},
   dataType:'json',
   success:function(data){
     
