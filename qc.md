@@ -64,7 +64,9 @@ image: /images/qc/qc_share.jpg
 问：是包邮价吗？<br/>
 答：是的，全国包邮。
 </div>
-
+<div style="display:none;">
+<img src="http://www.geelou.com/images/qc/qc_share.jpg"/>
+</div>
 <script>
 $(document).ready(function() {
 $.ajax({
