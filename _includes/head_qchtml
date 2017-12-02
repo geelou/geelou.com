@@ -10,6 +10,5 @@
     <script src='/js/jquery-1.4.4.min.js?1426205838'></script>
     <script src='/js/common.js?1426205838'></script>
     <meta property="wb:webmaster" content="4260f4ed6fa869c2" />
-    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3954735533" type="text/javascript" charset="utf-8"></script>				
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript" charset="utf-8"></script>				
   </head>

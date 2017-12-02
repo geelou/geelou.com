@@ -1,9 +1,9 @@
 ---
-layout: index
+layout: qc
 title: 妈妈自种橙子，味道纯正酸甜，欢迎订购
 excerpt: 妈妈自种橙子，味道纯正酸甜，欢迎订购
 permalink: /qc.html
-image: /images/qc/qc201701.jpg
+image: /images/qc/qc_share.png
 ---
 
 
@@ -66,7 +66,7 @@ image: /images/qc/qc201701.jpg
 </div>
 
 <script>
-
+$(document).ready(function() {
 $.ajax({
   url:'/php/weixin.class.php',
   type:'post',
@@ -137,6 +137,6 @@ $.ajax({
         });
     });
   }
-})
-
+});
+});
 </script>
