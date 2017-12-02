@@ -3,7 +3,7 @@ layout: qc
 title: 妈妈自种橙子，味道纯正酸甜，欢迎订购
 excerpt: 妈妈自种橙子，味道纯正酸甜，欢迎订购
 permalink: /qc.html
-image: /images/qc/qc_share.png
+image: /images/qc/qc_share.jpg
 ---
 
 
@@ -27,9 +27,9 @@ image: /images/qc/qc_share.png
 <img style="width:61.8%;" src="images/yuanyuan_20171202121236.jpg"/>
 </div>
 <h2 style="text-align:center;"> 脐橙图片 </h2>
-<img src="images/qc/qc201701.jpg" width="100%"/>
-<img src="images/qc/qc201702.jpg" width="100%"/>
-<img src="images/qc/qc201703.jpg" width="100%"/>
+<img src="images/qc/qc2017001.jpg" width="100%"/>
+<img src="images/qc/qc2017002.jpg" width="100%"/>
+<img src="images/qc/qc2017003.jpg" width="100%"/>
 
 <h2 style="text-align:center;"> 脐橙介绍 </h2>
 <div style="padding:0rem 1rem;">
@@ -94,7 +94,7 @@ $.ajax({
         wx.onMenuShareTimeline({ // 分享到朋友圈
             title : "妈妈自种橙子，味道纯正酸甜，欢迎订购",
             link :"http://www.geelou.com/qc.html",
-            imgUrl:"http://www.geelou.com/images/qc/qc_share.png",
+            imgUrl:"http://www.geelou.com/images/qc/qc_share.jpg",
             trigger: function (res) {
             // alert('用户点击分享到朋友圈');
             },
@@ -116,7 +116,7 @@ $.ajax({
             title : "妈妈自种橙子，味道纯正酸甜，欢迎订购",
             desc : "农村老家种的脐橙（产地湖南省新宁县清江桥乡），自家种植，现摘现卖，农家肥，自然成熟，不打蜡，新鲜美味，欢迎购买与品尝。",
             link :"http://www.geelou.com/qc.html",
-            imgUrl:"http://www.geelou.com/images/qc/qc_share.png",
+            imgUrl:"http://www.geelou.com/images/qc/qc_share.jpg",
             trigger: function (res) {
             // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
             // alert('用户点击发送给朋友');
