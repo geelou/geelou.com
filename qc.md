@@ -68,7 +68,7 @@ image: /images/qc/qc201701.jpg
 <script>
 
 $.ajax({
-  url:'http://php.geelou.com/weixin.class.php',
+  url:'/php/weixin.class.php',
   type:'get',
   data:{url:'http://www.geelou.com/qc.html'},
   dataType:'json',
