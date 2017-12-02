@@ -64,3 +64,80 @@ image: /images/qc/qc201701.jpg
 问：是包邮价吗？<br/>
 答：是的，全国包邮。
 </div>
+
+<script>
+
+$.ajax({
+  url:'http://php.geelou.com/weixin.class.php',
+  type:'get',
+  data:{url:window.location.pathname},
+  dataType:'json',
+  success:function(data){
+    
+    wx.config({
+        beta: true, // 必填，开启内测接口调用，注入wx.invoke和wx.on方法       
+        debug: false,//如果在测试环境可以设置为true，会在控制台输出分享信息； 
+        appId:data.appId, // 必填，公众号的唯一标识
+        timestamp:data.timestamp , // 必填，生成签名的时间戳
+        nonceStr:data.nonceStr, // 必填，生成签名的随机串
+        signature:data.signature,// 必填
+        jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','hideMenuItems','hideAllNonBaseMenuItem','playVoice'] // 必填
+        
+    });
+    wx.error(function(res){
+        console.log(res);
+    // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+
+    });
+    wx.ready(function(res){
+
+        wx.onMenuShareTimeline({
+            title : "农村老家种的脐橙",
+            link :"http://www.geelou.com/qc.html",
+            imgUrl:"http://www.geelou.com/images/qc/qc201701.jpg",
+            trigger: function (res) {
+            // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+            // alert('用户点击分享到朋友圈');
+            },
+            success: function (res) {
+            // alert('已分享');
+            console.log(res);
+            
+            },
+            cancel: function (res) {
+            // alert('已取消');
+            },
+            fail: function (res) {
+            // alert(JSON.stringify(res));
+            }
+        });
+
+        //分享给朋友
+        wx.onMenuShareAppMessage({
+            title : "农村老家种的脐橙",
+            desc : "农村老家种的脐橙（产地湖南省新宁县清江桥乡），自家种植，现摘现卖，农家肥，自然成熟，不打蜡，新鲜美味，欢迎购买与品尝。",
+            link :"http://www.geelou.com/qc.html",
+            imgUrl:"http://www.geelou.com/images/qc/qc201701.jpg",
+            trigger: function (res) {
+            // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+            // alert('用户点击发送给朋友');
+            },
+            success: function (res) {
+            // alert('已分享');
+            
+            console.log("分享好友成功");
+            },
+            cancel: function (res) {
+            // alert('已取消');
+            },
+            fail: function (res) {
+            // alert(JSON.stringify(res));
+            }
+
+
+        });
+    });
+  }
+})
+
+</script>
