@@ -92,7 +92,7 @@ $.ajax({
     wx.ready(function(res){
 
         wx.onMenuShareTimeline({ // 分享到朋友圈
-            title : "农村老家种的脐橙",
+            title : "妈妈自种橙子，味道纯正酸甜，欢迎订购",
             link :"http://www.geelou.com/qc.html",
             imgUrl:"http://www.geelou.com/images/qc/qc_share.png",
             trigger: function (res) {
@@ -113,7 +113,7 @@ $.ajax({
 
         //分享给朋友
         wx.onMenuShareAppMessage({
-            title : "农村老家种的脐橙",
+            title : "妈妈自种橙子，味道纯正酸甜，欢迎订购",
             desc : "农村老家种的脐橙（产地湖南省新宁县清江桥乡），自家种植，现摘现卖，农家肥，自然成熟，不打蜡，新鲜美味，欢迎购买与品尝。",
             link :"http://www.geelou.com/qc.html",
             imgUrl:"http://www.geelou.com/images/qc/qc_share.png",
