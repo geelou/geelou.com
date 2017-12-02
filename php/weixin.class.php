@@ -78,7 +78,7 @@ class class_weixin
         $jsapiTicket = $this->getJsApiTicket();
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
         $host = "$_SERVER[HTTP_HOST]";
-        $url = "$_SERVER[HTTP_ORIGIN]".$_POST['url'];//$_SERVER[REQUEST_URI]
+        $url = $_POST['url'];//$_SERVER[REQUEST_URI]
         $timestamp = time();
         $nonceStr = $this->createNonceStr();
         $string = "jsapi_ticket=$jsapiTicket&noncestr=$nonceStr&timestamp=$timestamp&url=$url";
