@@ -1,0 +1,4 @@
+<?php
+
+echo 'SERVER[HTTP_ORIGIN]'.$_SERVER[HTTP_ORIGIN];
+?>
