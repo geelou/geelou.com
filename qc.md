@@ -17,12 +17,11 @@ image: /images/qc/qc201701.jpg
 <br/>
 <span style="color:#ff5555;font-weight:bold;">新版红心橙10斤装 88元包邮，20斤装 168元包邮</span>。
 </p>
-</div>
-<h2 style="text-align:center;"> 联系方式 </h2>
-<div style="padding:1rem; 0rem;">
+<p>
 <span style="font-weight:bold;">联系人：</span>田女士<br/>
 <span style="font-weight:bold;">联系电话：</span>18501373836<br/>
-<span style="font-weight:bold;">微信号：</span>tianboyuan1207<br/>(长按下面的二维码图片后点击“识别图中二维码”也可以添加)<br/>
+<span style="font-weight:bold;">微信号：</span>tianboyuan1207<br/>(长按下面的二维码图片后点击“识别图中二维码”也可以添加)
+</p>
 </div>
 <div style="text-align:center;">
 <img style="width:61.8%;" src="images/yuanyuan_20171202121236.jpg"/>
