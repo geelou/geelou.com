@@ -7,15 +7,22 @@ $signPackage = $weixin->GetSignPackage();
 
 class class_weixin
 {
-    //var $appid = 'wxd9aa22770a124543';
-    //var $appsecret = '355aecc15d20f792898831e276c22e8a';
     private $appid = 'wx9a67ae2d202e9339';
-
     private $appsecret = 'e822cc18995a6160e4165ffd596ce2fb';
+    //private $appid = 'wxd9aa22770a124543';
+
+    //private $appsecret = '355aecc15d20f792898831e276c22e8a';
 
     //构造函数，获取Access Token
-    public function __construct()
+    public function __construct($appid = '',$appsecret = '')
     {
+        if($appid && $appsecret){
+            $this->appid = $appid;
+            $this->appsecret = $appsecret;
+        }
+
+        
+
         //3. 本地写入
         $res = file_get_contents('access_token.json');
         $result = json_decode($res, true);
@@ -78,7 +85,7 @@ class class_weixin
         $jsapiTicket = $this->getJsApiTicket();
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
         $host = "$_SERVER[HTTP_HOST]";
-        $url = $_POST['url'];//$_SERVER[REQUEST_URI]
+        $url = "$_SERVER[HTTP_ORIGIN]".$_POST['url'];//$_SERVER[REQUEST_URI]
         $timestamp = time();
         $nonceStr = $this->createNonceStr();
         $string = "jsapi_ticket=$jsapiTicket&noncestr=$nonceStr&timestamp=$timestamp&url=$url";
