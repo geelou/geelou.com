@@ -5,7 +5,7 @@ title: 文章列表
 excerpt: geelou文章列表
 ---
 
-<!DOCTYPE html>
+
 <html xmlns:wb="http://open.weibo.com/wb">
 	<head>
     <meta charset='utf-8' />
