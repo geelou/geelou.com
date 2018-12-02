@@ -13,9 +13,9 @@ image: /images/qc/qc_share.jpg
 农村老家种的脐橙（产地湖南省新宁县清江桥乡），自家种植，现摘现卖，农家肥，自然成熟，不打蜡，新鲜美味，欢迎购买与品尝。
 </p>
 <p>
-<span style="color:#ff5555;">招牌黄橙10斤装 68元包邮，20斤装128元包邮;</span>
+<span style="color:#ff5555;">招牌黄橙10斤68元包邮</span>
 <br/>
-<span style="color:#ff5555;font-weight:bold;">新版红心橙10斤装 88元包邮，20斤装 168元包邮</span>。
+<span style="color:#ff5555;font-weight:bold;">新版红心橙10斤88元包邮</span>。
 </p>
 <p>
 <span style="font-weight:bold;">联系人：</span>田女士<br/>
